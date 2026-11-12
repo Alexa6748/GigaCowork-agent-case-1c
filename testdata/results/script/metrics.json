@@ -1,0 +1,272 @@
+{
+ "runs": 3,
+ "datasets": {
+  "A_основной": {
+   "runs": [
+    {
+     "n_ful": 26,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 9,
+     "invented_values": 0,
+     "assigned": 14,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.24,
+     "hash": "7b45f2086bb4488a",
+     "exit_code": 0
+    },
+    {
+     "n_ful": 26,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 9,
+     "invented_values": 0,
+     "assigned": 14,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.25,
+     "hash": "7b45f2086bb4488a",
+     "exit_code": 0
+    },
+    {
+     "n_ful": 26,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 9,
+     "invented_values": 0,
+     "assigned": 14,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.24,
+     "hash": "7b45f2086bb4488a",
+     "exit_code": 0
+    }
+   ],
+   "reproducible": true
+  },
+  "B_формат": {
+   "runs": [
+    {
+     "n_ful": 26,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 9,
+     "invented_values": 0,
+     "assigned": 14,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.24,
+     "hash": "15d47f7947e993e5",
+     "exit_code": 0
+    },
+    {
+     "n_ful": 26,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 9,
+     "invented_values": 0,
+     "assigned": 14,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.25,
+     "hash": "15d47f7947e993e5",
+     "exit_code": 0
+    },
+    {
+     "n_ful": 26,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 9,
+     "invented_values": 0,
+     "assigned": 14,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.26,
+     "hash": "15d47f7947e993e5",
+     "exit_code": 0
+    }
+   ],
+   "reproducible": true
+  },
+  "C_крайние": {
+   "runs": [
+    {
+     "n_ful": 20,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 5,
+     "invented_values": 0,
+     "assigned": 11,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.27,
+     "hash": "1d15ea5409da8cf1",
+     "exit_code": 0
+    },
+    {
+     "n_ful": 20,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 5,
+     "invented_values": 0,
+     "assigned": 11,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.24,
+     "hash": "1d15ea5409da8cf1",
+     "exit_code": 0
+    },
+    {
+     "n_ful": 20,
+     "full_match": 1.0,
+     "per_field": {
+      "Решение (статус ФУЛ)": 1.0,
+      "Заказ": 1.0,
+      "Группа": 1.0,
+      "Логист": 1.0,
+      "Комментарий о повторе": 1.0
+     },
+     "form_columns_ok": true,
+     "form_orders_ok": true,
+     "form_no_old_or_dups": true,
+     "form_cells_accuracy": 1.0,
+     "form_pass": true,
+     "misses_ok": true,
+     "trap_checks": 5,
+     "invented_values": 0,
+     "assigned": 11,
+     "justified_share": 1.0,
+     "attention_recall": 1.0,
+     "attention_extra": [],
+     "attention_missed": [],
+     "mismatches": [],
+     "elapsed_sec": 0.25,
+     "hash": "1d15ea5409da8cf1",
+     "exit_code": 0
+    }
+   ],
+   "reproducible": true
+  }
+ }
+}

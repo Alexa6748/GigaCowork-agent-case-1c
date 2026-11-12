@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "_comment": "Справочник правил распределения. Заголовки и значения сравниваются после нормализации: нижний регистр, ё→е, знаки препинания и лишние пробелы убираются.",
+
+  "headers": {
+    "ful": {
+      "required": ["number", "comment", "supplier", "method"],
+      "columns": {
+        "date":     ["Дата", "Дата и время", "Дата ФУЛ", "Дата УЛ", "Дата документа"],
+        "cutoff":   ["Cut-off date", "Cut off date", "Cutoff date", "Cut-off", "Cutoff", "Дата cut-off", "Дата отсечки"],
+        "number":   ["Номер", "Номер УЛ", "Номер ФУЛ", "Номер упаковочного листа", "№ УЛ"],
+        "status":   ["Статус", "Состояние документа"],
+        "comment":  ["Комментарий", "Комментарий к документу"],
+        "method":   ["Способ доставки", "Вид доставки", "Тип перевозки", "Способ перевозки"],
+        "brand":    ["Бизнес единица", "Бизнес-единица", "Бренд"],
+        "logist":   ["Логист", "Ответственный логист"],
+        "supplier": ["Контрагент", "Поставщик"],
+        "country":  ["Страна", "Страна отправления", "Страна происхождения"]
+      }
+    },
+    "cloud": {
+      "required": ["order", "supplier", "logist", "status"],
+      "columns": {
+        "order":       ["Заказ", "Номер заказа", "№ заказа"],
+        "supplier":    ["Поставщик", "Контрагент"],
+        "brand":       ["Бренд", "Бизнес единица"],
+        "logist":      ["Логист"],
+        "status":      ["Статус", "статус"],
+        "confirm_date":["Дата подтверждения", "дата подтверждения"],
+        "cutoff":      ["Cut-off", "Cut off", "Cut-off date", "Cutoff"],
+        "ul_date":     ["Дата получения УЛ", "Дата получения упаковочного листа", "Дата получения ФУЛ"],
+        "country":     ["Страна отправления", "Страна"],
+        "method":      ["Способ доставки", "Вид доставки"],
+        "docs_date":   ["Документы получены", "Документы получены (дата)", "Дата получения документов"],
+        "comment":     ["Комментарий"]
+      }
+    },
+    "staff": {
+      "required": ["name", "state", "position"],
+      "columns": {
+        "name":     ["Наименование", "ФИО", "Сотрудник", "Физическое лицо"],
+        "state":    ["Текущее состояние", "Состояние", "Статус сотрудника"],
+        "position": ["Должность"],
+        "code":     ["Код", "Таб. №", "Табельный номер", "Код (Таб. №)", "Таб номер"]
+      }
+    }
+  },
+
+  "cloud_form_order": ["order", "supplier", "brand", "logist", "status", "confirm_date", "cutoff", "ul_date", "country", "method", "docs_date", "comment"],
+  "cloud_form_default_titles": {
+    "order": "Заказ", "supplier": "Поставщик", "brand": "Бренд", "logist": "Логист", "status": "статус",
+    "confirm_date": "дата подтверждения", "cutoff": "cut-off", "ul_date": "Дата получения УЛ",
+    "country": "Страна отправления", "method": "Способ доставки", "docs_date": "Документы получены", "comment": "Комментарий"
+  },
+
+  "groups": {
+    "air":   {"title": "Авиаперевозки",             "position_keywords": ["авиа"]},
+    "ved":   {"title": "ВЭД",                       "position_keywords": ["вэд", "внешнеэкономическ"]},
+    "multi": {"title": "Мультимодальные перевозки", "position_keywords": ["мультимодал"]}
+  },
+  "excluded_position_keywords": ["ассистент", "помощник", "руководител", "начальник", "директор", "заместител", "стажер"],
+
+  "methods": {
+    "air":          ["air", "авиа", "авиадоставка", "by air"],
+    "sea":          ["sea", "море", "морем", "by sea"],
+    "truck":        ["truck", "авто", "автодоставка"],
+    "railway":      ["railway", "rail", "жд", "ж д", "железная дорога"],
+    "direct truck": ["direct truck", "directtruck", "direct-truck"]
+  },
+  "air_methods": ["air"],
+
+  "china_countries": ["Китай", "КНР", "China", "CN", "PRC", "People's Republic of China", "Гонконг", "Сянган", "Hong Kong", "HongKong", "HK", "Китай (Гонконг)", "Гонконг (Китай)", "Hong Kong SAR"],
+
+  "staff_states": {
+    "available": ["работает"],
+    "dismissed_keywords": ["уволен"],
+    "leave_keywords": ["отпуск", "декрет", "уход за ребенком", "больничн"]
+  },
+
+  "cloud_in_work_values": ["в работе"],
+  "new_row_status": "в работе",
+
+  "ful_skip_status_keywords": ["удал", "отмен", "аннулир"],
+
+  "order_regex": "(?<![0-9A-Za-zА-Яа-яЁё])([SsСс])\\s*[-–]?\\s*(\\d{7})(?![0-9])",
+  "repeat_comment_template": "Повторная отправка ФУЛа, {date}",
+  "undefined": "не определено",
+
+  "supplier_legal_tokens": ["ооо", "оао", "зао", "пао", "ао", "ип", "тоо", "ltd", "co", "inc", "llc", "limited", "company", "corp", "corporation", "gmbh", "jsc", "sas", "srl", "spa", "as", "aş", "sa", "bv", "plc", "pte", "coltd", "colimited"]
+}
